@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GreetComponent } from './greet/greet.component';
+import { EventDemoComponent } from './event-demo/event-demo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GreetComponent
+    GreetComponent,
+    EventDemoComponent
   ],
   imports: [
     BrowserModule,
